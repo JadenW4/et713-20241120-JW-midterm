@@ -1,0 +1,562 @@
+Using rubocop-performance 1.23.0
+Using actioncable 8.0.1
+Using activestorage 8.0.1
+Using actionmailer 8.0.1
+Using railties 8.0.1
+Fetching sqlite3 1.5.4 (was 1.3.13)
+Using actionmailbox 8.0.1
+Using actiontext 8.0.1
+Using importmap-rails 2.0.3
+Using propshaft 1.1.0
+Using rubocop-rails-omakase 1.0.0
+Using solid_cable 3.0.4
+Using solid_cache 1.0.6
+Using solid_queue 1.1.0
+Using stimulus-rails 1.3.4
+Using turbo-rails 2.0.11
+Using web-console 4.2.1
+Using rails 8.0.1
+Installing sqlite3 1.5.4 (was 1.3.13) with native extensions
+
+fr
+^C#<Thread:0x00007f86e64645a0 /usr/share/ruby3.2/open3.rb:404 run> terminated with exception (report_on_exception is true):
+/usr/share/ruby3.2/open3.rb:404:in `read': stream closed in another thread (IOError)
+        from /usr/share/ruby3.2/open3.rb:404:in `block (2 levels) in capture2e'
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ bundle install
+Fetching gem metadata from https://rubygems.org/.........
+Resolving dependencies...
+Using rake 13.2.1
+Using base64 0.2.0
+Using bigdecimal 3.1.8
+Using concurrent-ruby 1.3.4
+Using connection_pool 2.4.1
+Using drb 2.2.1
+Using logger 1.6.3
+Using minitest 5.25.4
+Using securerandom 0.4.0
+Using uri 1.0.2
+Using builder 3.3.0
+Using erubi 1.13.0
+Using racc 1.8.1
+Using crass 1.0.6
+Using rack 3.1.8
+Using useragent 0.16.11
+Using nio4r 2.7.4
+Using websocket-extensions 0.1.5
+Using zeitwerk 2.7.1
+Using benchmark 0.4.0
+Using timeout 0.4.2
+Using marcel 1.0.4
+Using date 3.4.1
+Using public_suffix 6.0.1
+Using ast 2.4.2
+Using bcrypt_pbkdf 1.1.1
+Using bindex 0.8.1
+Using msgpack 1.7.5
+Using bundler 2.4.10
+Using matrix 0.4.2
+Using regexp_parser 2.9.3
+Using stringio 3.1.2
+Using io-console 0.8.0
+Using dotenv 3.1.6
+Using ed25519 1.3.0
+Using raabro 1.4.0
+Using thor 1.3.2
+Using json 2.9.0
+Using mini_mime 1.1.5
+Using ostruct 0.6.1
+Using net-ssh 7.3.0
+Using mini_portile2 2.8.8
+Using parallel 1.26.3
+Using rainbow 3.1.1
+Using language_server-protocol 3.17.0.3
+Using rexml 3.3.9
+Using ruby-progressbar 1.13.0
+Using rubyzip 2.3.2
+Using unicode-emoji 4.0.4
+Using thruster 0.1.9 (x86_64-linux)
+Using i18n 1.14.6
+Using tzinfo 2.0.6
+Using nokogiri 1.17.2 (x86_64-linux)
+Using rack-session 2.0.0
+Using rack-test 2.1.0
+Using websocket-driver 0.7.6
+Using brakeman 6.2.2
+Using rackup 2.2.1
+Using websocket 1.2.11
+Using net-protocol 0.2.2
+Using addressable 2.8.7
+Using bootsnap 1.18.4
+Using psych 5.2.1
+Using puma 6.5.0
+Using reline 0.5.12
+Using net-scp 4.0.0
+Using net-sftp 4.0.0
+Using parser 3.3.6.0
+Using activesupport 8.0.1
+Using loofah 2.23.1
+Using xpath 3.2.0
+Using et-orbi 1.2.11
+Using unicode-display_width 3.1.2
+Using net-imap 0.5.1
+Using net-pop 0.1.2
+Using net-smtp 0.5.0
+Using selenium-webdriver 4.27.0
+Using rdoc 6.9.0
+Using sshkit 1.23.2
+Using rubocop-ast 1.37.0
+Using rails-dom-testing 2.2.0
+Using globalid 1.2.1
+Using activemodel 8.0.1
+Using rails-html-sanitizer 1.6.2
+Using capybara 3.40.0
+Using fugit 1.11.1
+Using mail 2.8.1
+Using irb 1.14.2
+Using kamal 2.4.0
+Using rubocop 1.69.2
+Using actionview 8.0.1
+Using activejob 8.0.1
+Using activerecord 8.0.1
+Using debug 1.9.2
+Using rubocop-minitest 0.36.0
+Using rubocop-performance 1.23.0
+Using rubocop-rails 2.27.0
+Using actionpack 8.0.1
+Using jbuilder 2.13.0
+Using rubocop-rails-omakase 1.0.0
+Using actioncable 8.0.1
+Using activestorage 8.0.1
+Using actionmailer 8.0.1
+Using railties 8.0.1
+Installing sqlite3 1.5.4 (was 1.3.13) with native extensions
+Using actionmailbox 8.0.1
+Using actiontext 8.0.1
+Using importmap-rails 2.0.3
+Using propshaft 1.1.0
+Using solid_cable 3.0.4
+Using solid_cache 1.0.6
+Using solid_queue 1.1.0
+Using stimulus-rails 1.3.4
+Using turbo-rails 2.0.11
+Using web-console 4.2.1
+Using rails 8.0.1
+
+^Cvoclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ bin/rails server
+Could not find gem 'sqlite3 (~> 1.5.4)' in locally installed gems.
+
+The source contains the following gems matching 'sqlite3':
+  * sqlite3-1.3.13
+  * sqlite3-2.4.1-x86_64-linux-gnu
+Run `bundle install --gemfile /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile` to install missing gems.
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ bundle install
+
+[!] There was an error parsing `Gemfile`: Illformed requirement ["~> ~> 1.3.6"]. Bundler cannot continue.
+
+ #  from /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile:8
+ #  -------------------------------------------
+ #  # Use sqlite3 as the database for Active Record
+ >  gem "sqlite3", "~> ~> 1.3.6"
+ #  # Use the Puma web server [https://github.com/puma/puma]
+ #  -------------------------------------------
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ bundle install --gemfile
+
+[!] There was an error parsing `gemfile`: No such file or directory @ rb_sysopen - /home/ec2-user/environment/et713-20241120-JW-midterm/blog/gemfile. Bundler cannot continue.
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ cd gemfile
+bash: cd: gemfile: No such file or directory
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ bin/rails server
+<internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require': /home/ec2-user/.local/share/gem/ruby/extensions/x86_64-linux/3.2.0/sqlite3-1.3.13/sqlite3/sqlite3_native.so: undefined symbol: rb_tainted_str_new - /home/ec2-user/.local/share/gem/ruby/extensions/x86_64-linux/3.2.0/sqlite3-1.3.13/sqlite3/sqlite3_native.so (LoadError)
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:6:in `rescue in <main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:2:in `<main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:60:in `block (2 levels) in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `block in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler.rb:212:in `require'
+        from /home/ec2-user/environment/et713-20241120-JW-midterm/blog/config/application.rb:7:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:139:in `block in perform'
+        from <internal:kernel>:90:in `tap'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from bin/rails:4:in `<main>'
+<internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require': cannot load such file -- sqlite3/3.2/sqlite3_native (LoadError)
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:4:in `<main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:60:in `block (2 levels) in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `block in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler.rb:212:in `require'
+        from /home/ec2-user/environment/et713-20241120-JW-midterm/blog/config/application.rb:7:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:139:in `block in perform'
+        from <internal:kernel>:90:in `tap'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from bin/rails:4:in `<main>'
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ bin/rails
+Usage:
+  bin/rails COMMAND [options]
+
+You must specify a command. The most common commands are:
+
+  generate     Generate new code (short-cut alias: "g")
+  console      Start the Rails console (short-cut alias: "c")
+  server       Start the Rails server (short-cut alias: "s")
+  test         Run tests except system tests (short-cut alias: "t")
+  test:system  Run system tests
+  dbconsole    Start a console for the database specified in config/database.yml
+               (short-cut alias: "db")
+  plugin new   Create a new Rails railtie or engine
+
+All commands can be run with -h (or --help) for more information.
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ bin/rails server
+<internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require': /home/ec2-user/.local/share/gem/ruby/extensions/x86_64-linux/3.2.0/sqlite3-1.3.13/sqlite3/sqlite3_native.so: undefined symbol: rb_tainted_str_new - /home/ec2-user/.local/share/gem/ruby/extensions/x86_64-linux/3.2.0/sqlite3-1.3.13/sqlite3/sqlite3_native.so (LoadError)
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:6:in `rescue in <main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:2:in `<main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:60:in `block (2 levels) in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `block in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler.rb:212:in `require'
+        from /home/ec2-user/environment/et713-20241120-JW-midterm/blog/config/application.rb:7:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:139:in `block in perform'
+        from <internal:kernel>:90:in `tap'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from bin/rails:4:in `<main>'
+<internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require': cannot load such file -- sqlite3/3.2/sqlite3_native (LoadError)
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:4:in `<main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:60:in `block (2 levels) in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `block in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler.rb:212:in `require'
+        from /home/ec2-user/environment/et713-20241120-JW-midterm/blog/config/application.rb:7:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:139:in `block in perform'
+        from <internal:kernel>:90:in `tap'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from bin/rails:4:in `<main>'
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ rails -v
+Could not find rails-8.0.1 in locally installed gems
+Run `bundle install --gemfile /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile` to install missing gems.
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ rails
+Could not find rails-8.0.1 in locally installed gems
+Run `bundle install --gemfile /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile` to install missing gems.
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $  bin/rails server
+Could not find rails-8.0.1 in locally installed gems
+Run `bundle install --gemfile /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile` to install missing gems.
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ run bundle install
+bash: run: command not found
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ bundle install
+Fetching gem metadata from https://rubygems.org/.........
+Using rake 13.2.1
+Using base64 0.2.0
+Using bigdecimal 3.1.8
+Using concurrent-ruby 1.3.4
+Using connection_pool 2.4.1
+Using drb 2.2.1
+Using logger 1.6.3
+Using minitest 5.25.4
+Using securerandom 0.4.0
+Using uri 1.0.2
+Using builder 3.3.0
+Using erubi 1.13.0
+Using racc 1.8.1
+Using crass 1.0.6
+Using rack 3.1.8
+Using useragent 0.16.11
+Using nio4r 2.7.4
+Using websocket-extensions 0.1.5
+Using zeitwerk 2.7.1
+Using benchmark 0.4.0
+Using marcel 1.0.4
+Using mini_mime 1.1.5
+Using date 3.4.1
+Using public_suffix 6.0.1
+Using ast 2.4.2
+Using bcrypt_pbkdf 1.1.1
+Using bindex 0.8.1
+Using msgpack 1.7.5
+Using bundler 2.4.10
+Using matrix 0.4.2
+Using regexp_parser 2.9.3
+Using stringio 3.1.2
+Using io-console 0.8.0
+Using dotenv 3.1.6
+Using ed25519 1.3.0
+Using raabro 1.4.0
+Using thor 1.3.2
+Using json 2.9.0
+Using net-ssh 7.3.0
+Using ostruct 0.6.1
+Using language_server-protocol 3.17.0.3
+Using parallel 1.26.3
+Using rainbow 3.1.1
+Using rexml 3.3.9
+Using ruby-progressbar 1.13.0
+Using unicode-emoji 4.0.4
+Using rubyzip 2.3.2
+Using websocket 1.2.11
+Using sqlite3 1.3.13
+Using thruster 0.1.9 (x86_64-linux)
+Using timeout 0.4.2
+Using i18n 1.14.6
+Using nokogiri 1.17.2 (x86_64-linux)
+Using rack-session 2.0.0
+Using rack-test 2.1.0
+Using websocket-driver 0.7.6
+Using net-protocol 0.2.2
+Using addressable 2.8.7
+Using bootsnap 1.18.4
+Using brakeman 6.2.2
+Using psych 5.2.1
+Using reline 0.5.12
+Using rackup 2.2.1
+Using net-scp 4.0.0
+Using net-sftp 4.0.0
+Using parser 3.3.6.0
+Using puma 6.5.0
+Using unicode-display_width 3.1.2
+Using selenium-webdriver 4.27.0
+Using tzinfo 2.0.6
+Using activesupport 8.0.1
+Using net-imap 0.5.1
+Using net-pop 0.1.2
+Using net-smtp 0.5.0
+Using xpath 3.2.0
+Using rdoc 6.9.0
+Using et-orbi 1.2.11
+Using sshkit 1.23.2
+Using rubocop-ast 1.37.0
+Using loofah 2.23.1
+Using rails-dom-testing 2.2.0
+Using rails-html-sanitizer 1.6.2
+Using activemodel 8.0.1
+Using mail 2.8.1
+Using capybara 3.40.0
+Using irb 1.14.2
+Using fugit 1.11.1
+Using kamal 2.4.0
+Using rubocop 1.69.2
+Using globalid 1.2.1
+Using actionview 8.0.1
+Using activejob 8.0.1
+Using activerecord 8.0.1
+Using rubocop-minitest 0.36.0
+Using rubocop-performance 1.23.0
+Using rubocop-rails 2.27.0
+Using actionpack 8.0.1
+Using jbuilder 2.13.0
+Using debug 1.9.2
+Using actioncable 8.0.1
+Using actionmailer 8.0.1
+Using railties 8.0.1
+Using activestorage 8.0.1
+Using rubocop-rails-omakase 1.0.0
+Using actionmailbox 8.0.1
+Using importmap-rails 2.0.3
+Using propshaft 1.1.0
+Using solid_cable 3.0.4
+Using solid_cache 1.0.6
+Using solid_queue 1.1.0
+Using stimulus-rails 1.3.4
+Using turbo-rails 2.0.11
+Using web-console 4.2.1
+Using actiontext 8.0.1
+Fetching rails 8.0.1
+Installing rails 8.0.1
+Bundle complete! 21 Gemfile dependencies, 115 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+1 installed gem you directly depend on is looking for funding.
+  Run `bundle fund` for details
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $  bin/rails server
+<internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require': /home/ec2-user/.local/share/gem/ruby/extensions/x86_64-linux/3.2.0/sqlite3-1.3.13/sqlite3/sqlite3_native.so: undefined symbol: rb_tainted_str_new - /home/ec2-user/.local/share/gem/ruby/extensions/x86_64-linux/3.2.0/sqlite3-1.3.13/sqlite3/sqlite3_native.so (LoadError)
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:6:in `rescue in <main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:2:in `<main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:60:in `block (2 levels) in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `block in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler.rb:212:in `require'
+        from /home/ec2-user/environment/et713-20241120-JW-midterm/blog/config/application.rb:7:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:139:in `block in perform'
+        from <internal:kernel>:90:in `tap'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from bin/rails:4:in `<main>'
+<internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require': cannot load such file -- sqlite3/3.2/sqlite3_native (LoadError)
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.13/lib/sqlite3.rb:4:in `<main>'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:34:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:60:in `block (2 levels) in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:55:in `block in require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `each'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler/runtime.rb:44:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bundler-2.5.23/lib/bundler.rb:212:in `require'
+        from /home/ec2-user/environment/et713-20241120-JW-midterm/blog/config/application.rb:7:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:139:in `block in perform'
+        from <internal:kernel>:90:in `tap'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+        from /home/ec2-user/.local/share/gem/ruby/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+        from /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from <internal:/usr/share/ruby3.2-rubygems/rubygems/core_ext/kernel_require.rb>:37:in `require'
+        from /home/ec2-user/.local/share/gem/ruby/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+        from bin/rails:4:in `<main>'
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ git add .
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ git commit -m here we are
+error: pathspec 'we' did not match any file(s) known to git
+error: pathspec 'are' did not match any file(s) known to git
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ git commit -m "here we are"
+[main b1fbd2f] here we are
+ Committer: EC2 Default User <ec2-user@ip-172-31-88-74.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 4 insertions(+), 8 deletions(-)
+ create mode 100644 config/master.key
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream JadenW4 main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ git push --set-upstream JadenW4 main
+Username for 'https://github.com/JadenW4/et713-20241120-JW-midterm': JadenW4
+Password for 'https://JadenW4@github.com/JadenW4/et713-20241120-JW-midterm': 
+To https://github.com/JadenW4/et713-20241120-JW-midterm
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/JadenW4/et713-20241120-JW-midterm'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ cd et713-20241120-JW-midterm
+bash: cd: et713-20241120-JW-midterm: No such file or directory
+voclabs:~/environment/et713-20241120-JW-midterm/blog (main) $ 
