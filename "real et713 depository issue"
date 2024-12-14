@@ -1,0 +1,729 @@
+  Preparing        :                                                                                                                                                                                                                             1/1
+  Installing       : ncurses-c++-libs-6.2-4.20200222.amzn2023.0.6.x86_64                                                                                                                                                                         1/5
+  Installing       : ncurses-devel-6.2-4.20200222.amzn2023.0.6.x86_64                                                                                                                                                                            2/5
+  Installing       : readline-devel-8.1-2.amzn2023.0.2.x86_64                                                                                                                                                                                    3/5
+  Installing       : libyaml-devel-0.2.5-5.amzn2023.0.2.x86_64                                                                                                                                                                                   4/5
+  Installing       : libffi-devel-3.4.4-1.amzn2023.0.1.x86_64                                                                                                                                                                                    5/5
+  Running scriptlet: libffi-devel-3.4.4-1.amzn2023.0.1.x86_64                                                                                                                                                                                    5/5
+  Verifying        : libffi-devel-3.4.4-1.amzn2023.0.1.x86_64                                                                                                                                                                                    1/5
+  Verifying        : libyaml-devel-0.2.5-5.amzn2023.0.2.x86_64                                                                                                                                                                                   2/5
+  Verifying        : ncurses-c++-libs-6.2-4.20200222.amzn2023.0.6.x86_64                                                                                                                                                                         3/5
+  Verifying        : ncurses-devel-6.2-4.20200222.amzn2023.0.6.x86_64                                                                                                                                                                            4/5
+  Verifying        : readline-devel-8.1-2.amzn2023.0.2.x86_64                                                                                                                                                                                    5/5
+=====================================================================================================================================================================================================================================================
+WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.6.20241111:
+    Run the following command to upgrade to 2023.6.20241111:
+
+      dnf upgrade --releasever=2023.6.20241111
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.6.20241111.html
+
+  Version 2023.6.20241121:
+    Run the following command to upgrade to 2023.6.20241121:
+
+      dnf upgrade --releasever=2023.6.20241121
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.6.20241121.html
+
+=====================================================================================================================================================================================================================================================
+
+Installed:
+  libffi-devel-3.4.4-1.amzn2023.0.1.x86_64    libyaml-devel-0.2.5-5.amzn2023.0.2.x86_64    ncurses-c++-libs-6.2-4.20200222.amzn2023.0.6.x86_64    ncurses-devel-6.2-4.20200222.amzn2023.0.6.x86_64    readline-devel-8.1-2.amzn2023.0.2.x86_64
+
+Complete!
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ sudo yum install -y openssl-devel
+Last metadata expiration check: 0:31:08 ago on Sat Dec 14 18:17:24 2024.
+Package openssl-devel-1:3.0.8-1.amzn2023.0.16.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ curl -sSL https://get.rvm.io | bash -s stable
+Downloading https://github.com/rvm/rvm/archive/1.29.12.tar.gz
+Downloading https://github.com/rvm/rvm/releases/download/1.29.12/1.29.12.tar.gz.asc
+gpg: Signature made Fri Jan 15 18:46:22 2021 UTC
+gpg:                using RSA key 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+gpg: Can't check signature: No public key
+GPG signature verification failed for '/home/ec2-user/.rvm/archives/rvm-1.29.12.tgz' - 'https://github.com/rvm/rvm/releases/download/1.29.12/1.29.12.tar.gz.asc'! Try to install GPG v2 and then fetch the public key:
+
+    gpg2 --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+
+or if it fails:
+
+    command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+    command curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
+
+In case of further problems with validation please refer to https://rvm.io/rvm/security
+
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ source ~/.rvm/scripts/rvm
+bash: /home/ec2-user/.rvm/scripts/rvm: No such file or directory
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ rvm use 3.1.0 --default
+bash: rvm: command not found
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ rvm install 3.1.0
+bash: rvm: command not found
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ curl -sSL https://get.rvm.io | bash -s stable
+Downloading https://github.com/rvm/rvm/archive/1.29.12.tar.gz
+Downloading https://github.com/rvm/rvm/releases/download/1.29.12/1.29.12.tar.gz.asc
+gpg: Signature made Fri Jan 15 18:46:22 2021 UTC
+gpg:                using RSA key 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+gpg: Can't check signature: No public key
+GPG signature verification failed for '/home/ec2-user/.rvm/archives/rvm-1.29.12.tgz' - 'https://github.com/rvm/rvm/releases/download/1.29.12/1.29.12.tar.gz.asc'! Try to install GPG v2 and then fetch the public key:
+
+    gpg2 --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+
+or if it fails:
+
+    command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+    command curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
+
+In case of further problems with validation please refer to https://rvm.io/rvm/security
+
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ sudo npm install -g @angular/cli
+
+added 272 packages in 24s
+
+51 packages are looking for funding
+  run `npm fund` for details
+npm notice
+npm notice New patch version of npm available! 10.9.0 -> 10.9.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.2
+npm notice To update run: npm install -g npm@10.9.2
+npm notice
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ ng serve --host 0.0.0.0 --port 8080 --disable-host-check
+Error: This command is not available when running the Angular CLI outside a workspace.
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ run - <rails new blog>
+bash: syntax error near unexpected token `newline'
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ rails new blog
+      create
+      create  README.md
+      create  Rakefile
+      create  .ruby-version
+      create  config.ru
+      create  .gitignore
+      create  .gitattributes
+      create  Gemfile
+         run  git init -b main from "."
+Initialized empty Git repository in /home/ec2-user/environment/et713-20241120-JW-midterm/blog/.git/
+      create  app
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/views/pwa/manifest.json.erb
+      create  app/views/pwa/service-worker.js
+      create  app/assets/images
+      create  app/assets/images/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/brakeman
+      create  bin/dev
+      create  bin/rails
+      create  bin/rake
+      create  bin/rubocop
+      create  bin/setup
+      create  bin/thrust
+      create  Dockerfile
+      create  .dockerignore
+      create  bin/docker-entrypoint
+      create  .rubocop.yml
+      create  .github/workflows
+      create  .github/workflows/ci.yml
+      create  .github/dependabot.yml
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/storage.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/content_security_policy.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/new_framework_defaults_8_0.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/master.key
+      append  .gitignore
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/400.html
+      create  public/404.html
+      create  public/406-unsupported-browser.html
+      create  public/422.html
+      create  public/500.html
+      create  public/icon.png
+      create  public/icon.svg
+      create  public/robots.txt
+      create  script
+      create  script/.keep
+      create  tmp
+      create  tmp/.keep
+      create  tmp/pids
+      create  tmp/pids/.keep
+      create  vendor
+      create  vendor/.keep
+      create  test/fixtures/files
+      create  test/fixtures/files/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  test/system
+      create  test/system/.keep
+      create  test/application_system_test_case.rb
+      create  storage
+      create  storage/.keep
+      create  tmp/storage
+      create  tmp/storage/.keep
+      remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_8_0.rb
+         run  bundle install --quiet
+         run  bundle lock --add-platform=x86_64-linux
+Writing lockfile to /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile.lock
+         run  bundle binstubs bundler
+       rails  importmap:install
+       apply  /home/ec2-user/.local/share/gem/ruby/gems/importmap-rails-2.0.3/lib/install/install.rb
+  Add Importmap include tags in application layout
+      insert    app/views/layouts/application.html.erb
+  Create application.js module as entrypoint
+      create    app/javascript/application.js
+  Use vendor/javascript for downloaded pins
+      create    vendor/javascript
+      create    vendor/javascript/.keep
+  Configure importmap paths in config/importmap.rb
+      create    config/importmap.rb
+  Copying binstub
+      create    bin/importmap
+         run  bundle install --quiet
+       rails  turbo:install stimulus:install
+       apply  /home/ec2-user/.local/share/gem/ruby/gems/turbo-rails-2.0.11/lib/install/turbo_with_importmap.rb
+  Import Turbo
+      append    app/javascript/application.js
+  Pin Turbo
+      append    config/importmap.rb
+         run  bundle install --quiet
+       apply  /home/ec2-user/.local/share/gem/ruby/gems/stimulus-rails-1.3.4/lib/install/stimulus_with_importmap.rb
+  Create controllers directory
+      create    app/javascript/controllers
+      create    app/javascript/controllers/index.js
+      create    app/javascript/controllers/application.js
+      create    app/javascript/controllers/hello_controller.js
+  Import Stimulus controllers
+      append    app/javascript/application.js
+  Pin Stimulus
+  Appending: pin "@hotwired/stimulus", to: "stimulus.min.js"
+      append    config/importmap.rb
+  Appending: pin "@hotwired/stimulus-loading", to: "stimulus-loading.js"
+      append    config/importmap.rb
+  Pin all controllers
+  Appending: pin_all_from "app/javascript/controllers", under: "controllers"
+      append    config/importmap.rb
+         run  bundle install --quiet
+         run  bundle binstubs kamal
+         run  bundle exec kamal init
+Created configuration file in config/deploy.yml
+Created .kamal/secrets file
+Created sample hooks in .kamal/hooks
+       force  .kamal/secrets
+       force  config/deploy.yml
+       rails  solid_cache:install solid_queue:install solid_cable:install
+      create  config/cache.yml
+      create  db/cache_schema.rb
+        gsub  config/environments/production.rb
+      create  config/queue.yml
+      create  config/recurring.yml
+      create  db/queue_schema.rb
+      create  bin/jobs
+        gsub  config/environments/production.rb
+      create  db/cable_schema.rb
+       force  config/cable.yml
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ git push
+Username for 'https://github.com/JadenW4/et713-20241120-JW-midterm': JadenW4
+Password for 'https://JadenW4@github.com/JadenW4/et713-20241120-JW-midterm':
+Everything up-to-date
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ bundle update
+Could not locate Gemfile
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ git add .
+warning: adding embedded git repository: blog
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> blog
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached blog
+hint:
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: et713-20241120-JW-midterm
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ git commit -m "this will be seen here now"
+[main e985fdb] this will be seen here now
+ Committer: EC2 Default User <ec2-user@ip-172-31-88-74.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+)
+ create mode 160000 blog
+ create mode 160000 et713-20241120-JW-midterm
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ git push
+Username for 'https://github.com/JadenW4/et713-20241120-JW-midterm': JadenW4
+Password for 'https://JadenW4@github.com/JadenW4/et713-20241120-JW-midterm':
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 340 bytes | 340.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JadenW4/et713-20241120-JW-midterm
+   5ab2838..e985fdb  main -> main
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ bin/rails server
+bash: bin/rails: No such file or directory
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ ruby bin/rails server
+ruby: No such file or directory -- bin/rails (LoadError)
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ sudo yum install sqlite-devel
+Last metadata expiration check: 1:20:43 ago on Sat Dec 14 18:17:24 2024.
+Package sqlite-devel-3.40.0-1.amzn2023.0.4.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ gem install sqlite3
+Fetching sqlite3-2.4.1-x86_64-linux-gnu.gem
+Successfully installed sqlite3-2.4.1-x86_64-linux-gnu
+Parsing documentation for sqlite3-2.4.1-x86_64-linux-gnu
+Installing ri documentation for sqlite3-2.4.1-x86_64-linux-gnu
+Done installing documentation for sqlite3 after 2 seconds
+1 gem installed
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ bin/rails generate controller Welcome index
+bash: bin/rails: No such file or directory
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ gem install sqlite3 -v '1.3.6'
+Building native extensions. This could take a while...
+ERROR:  Error installing sqlite3:
+        ERROR: Failed to build gem native extension.
+
+    current directory: /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.6/ext/sqlite3
+/usr/bin/ruby3.2 -I/usr/share/ruby3.2-rubygems extconf.rb
+checking for sqlite3.h... yes
+checking for sqlite3_libversion_number() in -lsqlite3... yes
+checking for rb_proc_arity()... yes
+checking for sqlite3_initialize()... yes
+checking for sqlite3_backup_init()... yes
+checking for sqlite3_column_database_name()... yes
+checking for sqlite3_enable_load_extension()... yes
+checking for sqlite3_load_extension()... yes
+checking for sqlite3_open_v2()... yes
+checking for sqlite3_prepare_v2()... yes
+checking for sqlite3_int64 in sqlite3.h... yes
+checking for sqlite3_uint64 in sqlite3.h... yes
+creating Makefile
+
+current directory: /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.6/ext/sqlite3
+make DESTDIR\= sitearchdir\=./.gem.20241214-50812-5o56mb sitelibdir\=./.gem.20241214-50812-5o56mb clean
+
+current directory: /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.6/ext/sqlite3
+make DESTDIR\= sitearchdir\=./.gem.20241214-50812-5o56mb sitelibdir\=./.gem.20241214-50812-5o56mb
+compiling backup.c
+compiling database.c
+database.c: In function ‘initialize’:
+database.c:57:3: warning: implicit declaration of function ‘rb_check_safe_obj’; did you mean ‘rb_check_safe_str’? [-Wimplicit-function-declaration]
+   57 |   rb_check_safe_obj(file);
+      |   ^~~~~~~~~~~~~~~~~
+      |   rb_check_safe_str
+database.c: In function ‘sqlite3val2rb’:
+database.c:282:14: warning: implicit declaration of function ‘rb_tainted_str_new2’; did you mean ‘rb_enc_str_new’? [-Wimplicit-function-declaration]
+  282 |       return rb_tainted_str_new2((const char *)sqlite3_value_text(val));
+      |              ^~~~~~~~~~~~~~~~~~~
+      |              rb_enc_str_new
+compiling exception.c
+compiling sqlite3.c
+compiling statement.c
+statement.c: In function ‘step’:
+statement.c:156:29: warning: implicit declaration of function ‘rb_tainted_str_new’; did you mean ‘rb_enc_str_new’? [-Wimplicit-function-declaration]
+  156 |                 VALUE str = rb_tainted_str_new(
+      |                             ^~~~~~~~~~~~~~~~~~
+      |                             rb_enc_str_new
+In file included from statement.c:1:
+statement.c: In function ‘bind_param’:
+./sqlite3_ruby.h:16:24: warning: implicit declaration of function ‘RBIGNUM’; did you mean ‘T_BIGNUM’? [-Wimplicit-function-declaration]
+   16 | #define RBIGNUM_LEN(x) RBIGNUM(x)->len
+      |                        ^~~~~~~
+statement.c:262:11: note: in expansion of macro ‘RBIGNUM_LEN’
+  262 |       if (RBIGNUM_LEN(value) * SIZEOF_BDIGITS <= 8) {
+      |           ^~~~~~~~~~~
+./sqlite3_ruby.h:16:34: error: invalid type argument of ‘->’ (have ‘int’)
+   16 | #define RBIGNUM_LEN(x) RBIGNUM(x)->len
+      |                                  ^~
+statement.c:262:11: note: in expansion of macro ‘RBIGNUM_LEN’
+  262 |       if (RBIGNUM_LEN(value) * SIZEOF_BDIGITS <= 8) {
+      |           ^~~~~~~~~~~
+statement.c:262:32: error: ‘SIZEOF_BDIGITS’ undeclared (first use in this function); did you mean ‘SIZEOF_INT’?
+  262 |       if (RBIGNUM_LEN(value) * SIZEOF_BDIGITS <= 8) {
+      |                                ^~~~~~~~~~~~~~
+      |                                SIZEOF_INT
+statement.c:262:32: note: each undeclared identifier is reported only once for each function it appears in
+statement.c: In function ‘reset_bang’:
+statement.c:294:7: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+  294 |   int status;
+      |       ^~~~~~
+statement.c: In function ‘clear_bindings’:
+statement.c:314:7: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+  314 |   int status;
+      |       ^~~~~~
+make: *** [Makefile:249: statement.o] Error 1
+
+make failed, exit code 2
+
+Gem files will remain installed in /home/ec2-user/.local/share/gem/ruby/gems/sqlite3-1.3.6 for inspection.
+Results logged to /home/ec2-user/.local/share/gem/ruby/extensions/x86_64-linux/3.2.0/sqlite3-1.3.6/gem_make.out
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ bin/rails generate controller Welcome index
+bash: bin/rails: No such file or directory
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ sudo yum groupinstall "Development Tools"
+Last metadata expiration check: 1:49:42 ago on Sat Dec 14 18:17:24 2024.
+No match for group package "system-rpm-config"
+No match for group package "rcs"
+No match for group package "pkgconfig"
+Dependencies resolved.
+=====================================================================================================================================================================================================================================================
+ Package                                                    Architecture                                              Version                                                       Repository                                                  Size
+=====================================================================================================================================================================================================================================================
+Installing Groups:
+ Development Tools
+
+Transaction Summary
+=====================================================================================================================================================================================================================================================
+
+Is this ok [y/N]: y
+=====================================================================================================================================================================================================================================================
+WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.6.20241111:
+    Run the following command to upgrade to 2023.6.20241111:
+
+      dnf upgrade --releasever=2023.6.20241111
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.6.20241111.html
+
+  Version 2023.6.20241121:
+    Run the following command to upgrade to 2023.6.20241121:
+
+      dnf upgrade --releasever=2023.6.20241121
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.6.20241121.html
+
+=====================================================================================================================================================================================================================================================
+Complete!
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ sudo yum install sqlite-devel
+Last metadata expiration check: 1:50:13 ago on Sat Dec 14 18:17:24 2024.
+Package sqlite-devel-3.40.0-1.amzn2023.0.4.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ rails new blog
+       exist
+   identical  README.md
+   identical  Rakefile
+   identical  .ruby-version
+   identical  config.ru
+    conflict  .gitignore
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/.gitignore? (enter "h" for help) [Ynaqdhm] h
+        Y - yes, overwrite
+        n - no, do not overwrite
+        a - all, overwrite this and all others
+        q - quit, abort
+        h - help, show this help
+        d - diff, show the differences between the old and the new
+        m - merge, run merge tool
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/.gitignore? (enter "h" for help) [Ynaqdhm] y
+       force  .gitignore
+    conflict  .gitattributes
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/.gitattributes? (enter "h" for help) [Ynaqdhm] h
+        Y - yes, overwrite
+        n - no, do not overwrite
+        a - all, overwrite this and all others
+        q - quit, abort
+        h - help, show this help
+        d - diff, show the differences between the old and the new
+        m - merge, run merge tool
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/.gitattributes? (enter "h" for help) [Ynaqdhm] m
+Please specify merge tool to `THOR_MERGE` env.
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/.gitattributes? (enter "h" for help) [Ynaqdhm] y
+       force  .gitattributes
+    conflict  Gemfile
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile? (enter "h" for help) [Ynaqdhm] m
+Please specify merge tool to `THOR_MERGE` env.
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile? (enter "h" for help) [Ynaqdhm] m
+Please specify merge tool to `THOR_MERGE` env.
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile? (enter "h" for help) [Ynaqdhm] THOR_MERGE env
+        Y - yes, overwrite
+        n - no, do not overwrite
+        a - all, overwrite this and all others
+        q - quit, abort
+        h - help, show this help
+        d - diff, show the differences between the old and the new
+        m - merge, run merge tool
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile? (enter "h" for help) [Ynaqdhm] m
+Please specify merge tool to `THOR_MERGE` env.
+Overwrite /home/ec2-user/environment/et713-20241120-JW-midterm/blog/Gemfile? (enter "h" for help) [Ynaqdhm] q
+Aborting...
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ gem uninstall rails
+Gem 'rails' is not installed
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ gem install rails -v 5.x
+ERROR:  Could not find a valid gem 'rails' (= 5.x) in any repository
+ERROR:  Possible alternatives: Agiley-ec2onrails, Bootstrap-Image-Gallery-rails, CFPropertyList-rails, CITIEsForRAILS, DistelliServiceFrameworkRails, Empact-ec2onrails, Empact-rails-plugin-package-task, FireRails, FlowRails, HornsAndHooves-jade-rails
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ gem install rails -v 5
+Fetching thread_safe-0.3.6.gem
+Fetching rack-2.2.10.gem
+Fetching sprockets-4.2.1.gem
+Fetching activesupport-5.0.0.gem
+Fetching tzinfo-1.2.11.gem
+Fetching erubis-2.7.0.gem
+Fetching railties-5.0.0.gem
+Fetching i18n-0.9.5.gem
+Fetching rack-test-0.6.3.gem
+Fetching actionview-5.0.0.gem
+Fetching actionpack-5.0.0.gem
+Fetching sprockets-rails-3.2.2.gem
+Fetching method_source-1.1.0.gem
+Fetching activerecord-5.0.0.gem
+Fetching arel-7.1.4.gem
+Fetching activemodel-5.0.0.gem
+Fetching rails-5.0.0.gem
+Fetching globalid-1.1.0.gem
+Fetching activejob-5.0.0.gem
+Fetching actionmailer-5.0.0.gem
+Fetching websocket-driver-0.6.5.gem
+Fetching bundler-1.17.3.gem
+Fetching nio4r-1.2.1.gem
+Fetching actioncable-5.0.0.gem
+rack's executable "rackup" conflicts with rackup
+Overwrite the executable? [yN]  y
+Successfully installed rack-2.2.10
+Successfully installed sprockets-4.2.1
+Successfully installed thread_safe-0.3.6
+Successfully installed tzinfo-1.2.11
+Successfully installed i18n-0.9.5
+Successfully installed activesupport-5.0.0
+Successfully installed rack-test-0.6.3
+Successfully installed erubis-2.7.0
+Successfully installed actionview-5.0.0
+Successfully installed actionpack-5.0.0
+Successfully installed sprockets-rails-3.2.2
+Successfully installed method_source-1.1.0
+Successfully installed railties-5.0.0
+Successfully installed bundler-1.17.3
+Successfully installed arel-7.1.4
+Successfully installed activemodel-5.0.0
+Successfully installed activerecord-5.0.0
+Successfully installed globalid-1.1.0
+Successfully installed activejob-5.0.0
+Successfully installed actionmailer-5.0.0
+Building native extensions. This could take a while...
+Successfully installed websocket-driver-0.6.5
+Building native extensions. This could take a while...
+Successfully installed nio4r-1.2.1
+Successfully installed actioncable-5.0.0
+Successfully installed rails-5.0.0
+Parsing documentation for rack-2.2.10
+Installing ri documentation for rack-2.2.10
+Parsing documentation for sprockets-4.2.1
+Installing ri documentation for sprockets-4.2.1
+Parsing documentation for thread_safe-0.3.6
+Installing ri documentation for thread_safe-0.3.6
+Parsing documentation for tzinfo-1.2.11
+Installing ri documentation for tzinfo-1.2.11
+Parsing documentation for i18n-0.9.5
+Installing ri documentation for i18n-0.9.5
+Parsing documentation for activesupport-5.0.0
+Installing ri documentation for activesupport-5.0.0
+Parsing documentation for rack-test-0.6.3
+Installing ri documentation for rack-test-0.6.3
+Parsing documentation for erubis-2.7.0
+Installing ri documentation for erubis-2.7.0
+Parsing documentation for actionview-5.0.0
+Installing ri documentation for actionview-5.0.0
+Parsing documentation for actionpack-5.0.0
+Installing ri documentation for actionpack-5.0.0
+Parsing documentation for sprockets-rails-3.2.2
+Installing ri documentation for sprockets-rails-3.2.2
+Parsing documentation for method_source-1.1.0
+Installing ri documentation for method_source-1.1.0
+Parsing documentation for railties-5.0.0
+Installing ri documentation for railties-5.0.0
+Parsing documentation for bundler-1.17.3
+Installing ri documentation for bundler-1.17.3
+Parsing documentation for arel-7.1.4
+Installing ri documentation for arel-7.1.4
+Parsing documentation for activemodel-5.0.0
+Installing ri documentation for activemodel-5.0.0
+Parsing documentation for activerecord-5.0.0
+Installing ri documentation for activerecord-5.0.0
+Parsing documentation for globalid-1.1.0
+Installing ri documentation for globalid-1.1.0
+Parsing documentation for activejob-5.0.0
+Installing ri documentation for activejob-5.0.0
+Parsing documentation for actionmailer-5.0.0
+Installing ri documentation for actionmailer-5.0.0
+Parsing documentation for websocket-driver-0.6.5
+Installing ri documentation for websocket-driver-0.6.5
+Parsing documentation for nio4r-1.2.1
+Installing ri documentation for nio4r-1.2.1
+Parsing documentation for actioncable-5.0.0
+Installing ri documentation for actioncable-5.0.0
+Parsing documentation for rails-5.0.0
+Installing ri documentation for rails-5.0.0
+Done installing documentation for rack, sprockets, thread_safe, tzinfo, i18n, activesupport, rack-test, erubis, actionview, actionpack, sprockets-rails, method_source, railties, bundler, arel, activemodel, activerecord, globalid, activejob, actionmailer, websocket-driver, nio4r, actioncable, rails after 26 seconds
+24 gems installed
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ rails -v
+Rails 8.0.1
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ 5.2.4.4
+bash: 5.2.4.4: command not found
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ install rails 5.2.4.4
+install: cannot stat 'rails': No such file or directory
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ gem install rails -5.2.4.4
+ERROR:  While executing gem ... (Gem::OptionParser::InvalidOption)
+    invalid option: -5.2.4.4
+        /usr/share/ruby3.2-rubygems/rubygems/command.rb:448:in `handle_options'
+        /usr/share/ruby3.2-rubygems/rubygems/command.rb:313:in `invoke_with_build_args'
+        /usr/share/ruby3.2-rubygems/rubygems/command_manager.rb:252:in `invoke_command'
+        /usr/share/ruby3.2-rubygems/rubygems/command_manager.rb:192:in `process_args'
+        /usr/share/ruby3.2-rubygems/rubygems/command_manager.rb:150:in `run'
+        /usr/share/ruby3.2-rubygems/rubygems/gem_runner.rb:51:in `run'
+        /usr/bin/gem:10:in `<main>'
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ gem install rails -v 5.2.4.4
+Fetching activesupport-5.2.4.4.gem
+Fetching activemodel-5.2.4.4.gem
+Fetching actionpack-5.2.4.4.gem
+Fetching railties-5.2.4.4.gem
+Fetching mimemagic-0.3.10.gem
+Fetching marcel-0.3.3.gem
+Fetching arel-9.0.0.gem
+Fetching actionview-5.2.4.4.gem
+Fetching activerecord-5.2.4.4.gem
+Fetching rails-5.2.4.4.gem
+Fetching activestorage-5.2.4.4.gem
+Fetching activejob-5.2.4.4.gem
+Fetching actionmailer-5.2.4.4.gem
+Fetching actioncable-5.2.4.4.gem
+Successfully installed activesupport-5.2.4.4
+Successfully installed actionview-5.2.4.4
+Successfully installed actionpack-5.2.4.4
+Successfully installed railties-5.2.4.4
+Building native extensions. This could take a while...
+Successfully installed mimemagic-0.3.10
+Successfully installed marcel-0.3.3
+Successfully installed arel-9.0.0
+Successfully installed activemodel-5.2.4.4
+Successfully installed activerecord-5.2.4.4
+Successfully installed activestorage-5.2.4.4
+Successfully installed activejob-5.2.4.4
+Successfully installed actionmailer-5.2.4.4
+Successfully installed actioncable-5.2.4.4
+Successfully installed rails-5.2.4.4
+Parsing documentation for activesupport-5.2.4.4
+Installing ri documentation for activesupport-5.2.4.4
+Parsing documentation for actionview-5.2.4.4
+Installing ri documentation for actionview-5.2.4.4
+Parsing documentation for actionpack-5.2.4.4
+Installing ri documentation for actionpack-5.2.4.4
+Parsing documentation for railties-5.2.4.4
+Installing ri documentation for railties-5.2.4.4
+Parsing documentation for mimemagic-0.3.10
+Installing ri documentation for mimemagic-0.3.10
+Parsing documentation for marcel-0.3.3
+Installing ri documentation for marcel-0.3.3
+Parsing documentation for arel-9.0.0
+Installing ri documentation for arel-9.0.0
+Parsing documentation for activemodel-5.2.4.4
+Installing ri documentation for activemodel-5.2.4.4
+Parsing documentation for activerecord-5.2.4.4
+Installing ri documentation for activerecord-5.2.4.4
+Parsing documentation for activestorage-5.2.4.4
+Installing ri documentation for activestorage-5.2.4.4
+Parsing documentation for activejob-5.2.4.4
+Installing ri documentation for activejob-5.2.4.4
+Parsing documentation for actionmailer-5.2.4.4
+Installing ri documentation for actionmailer-5.2.4.4
+Parsing documentation for actioncable-5.2.4.4
+Installing ri documentation for actioncable-5.2.4.4
+Parsing documentation for rails-5.2.4.4
+Installing ri documentation for rails-5.2.4.4
+Done installing documentation for activesupport, actionview, actionpack, railties, mimemagic, marcel, arel, activemodel, activerecord, activestorage, activejob, actionmailer, actioncable, rails after 14 seconds
+14 gems installed
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ git add .
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ git commit -m "i hope this does something"
+[main fe9f0a2] i hope this does something
+ Committer: EC2 Default User <ec2-user@ip-172-31-88-74.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ git push
+Username for 'https://github.com/JadenW4/et713-20241120-JW-midterm': JadenW4
+Password for 'https://JadenW4@github.com/JadenW4/et713-20241120-JW-midterm': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 340 bytes | 340.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/JadenW4/et713-20241120-JW-midterm
+   b2f6951..fe9f0a2  main -> main
+voclabs:~/environment/et713-20241120-JW-midterm (main) $ 
